@@ -1,0 +1,99 @@
+#tuv{
+color:#00FA9A;
+padding:7px;
+font-size:25px;
+}
+
+#abc{
+padding-right:400px;
+padding-left:400px;
+}
+
+#def{
+border: 1px solid black;
+}
+
+#lmn{
+background-color:#d3d3d3;
+font-size: 50px;
+padding-left:30px;
+color:white;
+}
+
+#ghi{
+padding-left:30px;
+padding-right:10px;
+}
+
+body{
+float:center;
+}
+
+div{
+display:block;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+select{
+background-color:#00FA9A;
+}
+
+input[type=radio]{
+padding:22px;
+}
+
+.anchor{
+float:right;
+margin:3px;
+color:#00FA9A;
+}
+
+
+input[type=file]{
+width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color:#d3d3d3;
+ }
+
+input[type=submit]{
+width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color:#00FA9A;
+ }
+
+#xyz{
+background-color:#d3d3d3;
+font-size: 50px;
+padding-left:30px;
+padding-right: 95px;
+text-align: right;
+}
+
+#pqr{
+width:50%;
+}
+
+
+
+
