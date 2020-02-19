@@ -37,7 +37,7 @@ public class MethodOverloading {
         System.out.println(a.add(10.5, 20.5)); 
         System.out.println(a.mul(10, 20));
         System.out.println(a.mul(1.2, 2.4));
-        System.out.println(a.concat("Prashant", " Brahmbhatt")); 
-        System.out.println(a.concat("Prashant", " Freakin", " Brahmbhatt")); 
+        System.out.println(a.concat("Ashutosh", "Singh")); 
+        System.out.println(a.concat("Ashutosh", " 98", "Singh")); 
     } 
 } 
