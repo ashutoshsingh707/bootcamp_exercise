@@ -1,7 +1,7 @@
 public class AllStatic{
-    static String firstName = "Prashant";
-    static String lastName = "Brahmbhatt";
-    static int age = 22;
+    static String firstName = "Ashutosh";
+    static String lastName = "Singh";
+    static int age = 21;
 
     static{
         System.out.println("\nWe are in static block");
