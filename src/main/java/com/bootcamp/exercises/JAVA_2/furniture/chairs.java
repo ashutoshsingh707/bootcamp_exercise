@@ -1,4 +1,4 @@
-package furniture;
+package com.bootcamp.exercises.JAVA_2.furniture;
 
 import com.bootcamp.exercises.JAVA_2.furniture.chair;
 
