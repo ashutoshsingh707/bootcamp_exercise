@@ -1,69 +1,22 @@
 package JAVA_2;
-
-import java.util.*;
-class whiledowhile8
-{
-    Scanner sc=new Scanner(System.in);
-    void withwhile()
+import java.util.Scanner;
+public class whiledowhile8 {
+    public static void main(String args[])
     {
-        String Str="done";
-        String str1;
-        int flag=1;
-        while(flag==1)
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter a word: ");
+        String s1=sc.next();
+        while(!s1.equals("done"))
         {
-            str1=sc.next();
-            if(str1.equalsIgnoreCase(Str))
+            if(s1.charAt(0)==s1.charAt(s1.length()-1))
             {
-                flag=0;
+                System.out.println("first and last characters are equal.");
             }
             else
             {
-                int k= str1.length();
-                char d=str1.charAt(0);
-                String s=""+d;
-                char f=str1.charAt(k-1);
-                String s1=""+f;
-                if(s.equalsIgnoreCase(s1))
-                {
-                    System.out.println("First and Last letters are Same");
-                }
+                System.out.println("first and last characters are not equal.");
             }
+            s1=sc.next();
         }
-    }
-    void withdowhile()
-    {
-        String Str="done";
-        String str1;
-        int flag=1;
-        do
-        {
-            str1=sc.next();
-            if(str1.equalsIgnoreCase(Str))
-            {
-                flag=0;
-            }
-            else
-            {
-                int k= str1.length();
-                char d=str1.charAt(0);
-                String s=""+d;
-                char f=str1.charAt(k-1);
-                String s1=""+f;
-                if(s.equalsIgnoreCase(s1))
-                {
-                    System.out.println("First and Last letters are Same");
-                }
-            }
-
-        }while(flag==1);
-
-
-    }
-    public static void main (String args[])
-    {
-
-        whiledowhile8 d=new whiledowhile8();
-        d.withwhile();
-        d.withdowhile();
     }
 }
