@@ -1,4 +1,4 @@
-package furniture;
+package com.bootcamp.exercises.JAVA_2.furniture;
 public class chair
 {
     public String Type;
