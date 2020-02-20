@@ -9,13 +9,8 @@ class Library extends Abstract
     @Override
     void setDetails()
     {
-        Scanner scan=new Scanner(System.in);
-        System.out.println("Library_Name");
-        String Library_Name = scan.nextLine();
-        System.out.println("Library_id");
-        String Library_id = scan.nextLine();
-       // Library_Name="TIKAK LIBRARY";
-        //Library_id=124542;
+       Library_Name="TIKAK LIBRARY";
+       Library_id=124542;
     }
 
     @Override
@@ -33,16 +28,9 @@ class Librarian implements Lib1
 
 
     public void setDetail() {
-        Scanner scan=new Scanner(System.in);
-        System.out.println("Librarian_Name");
-        String Librarian_Name = scan.nextLine();
-        System.out.println("Librarian_id");
-        String Librarian_id = scan.nextLine();
-        System.out.println("Librarian_address");
-        String Librarian_address = scan.nextLine();
-        // Librarian_Name="Ajay";
-       // Librarian_id=1234;
-      //  Librarian_address="xyz street  abc nagar";
+        Librarian_Name="Ashutosh";
+        Librarian_id=1234;
+        Librarian_address="xyz street  abc nagar";
 
     }
 
@@ -60,16 +48,9 @@ class user extends Abstract
     public String user_address;
     @Override
     public void setDetails() {
-        Scanner scan=new Scanner(System.in);
-        System.out.println("user_Name");
-        String user_name = scan.nextLine();
-        System.out.println("user_id");
-        String user_id = scan.nextLine();
-        System.out.println("user_address");
-        String user_address = scan.nextLine();
-       /* user_name="Ajay Kumar";
+       user_name="Ashutosh Singh";
         user_id=1234565;
-        user_address="xyz street  abc nagar Delhi";*/
+        user_address="xyz street  abc nagar Delhi";
 
     }
     @Override
