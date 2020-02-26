@@ -1,7 +1,7 @@
 package com.bootcamp.exercises.JAVA_2;
 import java.util.Scanner;
 
-public class whiledowhile8_2 {
+public class Qwhiledowhile8_2 {
         public static void main(String args[])
         {
             Scanner sc=new Scanner(System.in);
